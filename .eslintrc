@@ -1,0 +1,52 @@
+{
+  "extends": [
+    "plugin:@typescript-eslint/recommended",
+    "plugin:storybook/recommended",
+    "next/core-web-vitals",
+    "airbnb",
+    "prettier"
+  ],
+  "plugins": [
+    "@typescript-eslint",
+    "import",
+    "prettier",
+    "jest",
+    "testing-library",
+    "storybook"
+  ],
+  "env": { "jest/globals": true },
+  "overrides": [
+    {
+      "extends": ["plugin:testing-library/react"],
+      "files": ["**/__tests__/**/*.[jt]s?(x)", "**/?(*.)+(spec|test).[jt]s?(x)"]
+    }
+  ],
+  "rules": {
+    "prettier/prettier": ["error"],
+    "@typescript-eslint/consistent-type-imports": [
+      "error",
+      { "prefer": "type-imports" }
+    ],
+    "import/extensions": [
+      "error",
+      "never",
+      { "css": "always", "json": "always", "svg": "always" }
+    ],
+    "no-restricted-exports": "off",
+    "react/jsx-filename-extension": [
+      "error",
+      { "extensions": [".jsx", ".tsx"] }
+    ],
+    "react/jsx-props-no-spreading": "off",
+    "react/function-component-definition": "off",
+    "react/require-default-props": [
+      2,
+      {
+        "forbidDefaultForRequired": true,
+        "functions": "defaultArguments"
+      }
+    ],
+    "semi": ["error", "never"],
+    "arrow-body-style": ["error", "as-needed"]
+  }
+}

@@ -1,0 +1,50 @@
+.container {
+  @apply px-8 py-0;
+}
+
+.main {
+  @apply min-h-screen
+    px-0 py-16
+    flex flex-col
+    justify-center
+    items-center;
+}
+
+.title a {
+  @apply text-blue-500
+    no-underline;
+}
+
+.title a:hover,
+.title a:focus,
+.title a:active {
+  @apply underline;
+}
+
+.title {
+  @apply m-0
+    leading-5
+    text-6xl;
+}
+
+.title,
+.description {
+  @apply text-center;
+}
+
+.description {
+  @apply mx-0 my-16
+    leading-5
+    text-base;
+}
+
+.code {
+  @apply p-2 rounded-md
+    bg-slate-300
+    text-sm
+    font-mono;
+}
+
+.footer {
+  @apply mx-0 my-0;
+}

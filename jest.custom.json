@@ -1,0 +1,19 @@
+{
+  "testEnvironment": "jest-environment-jsdom",
+  "moduleFileExtensions": ["js", "jsx", "ts", "tsx", "d.ts"],
+  "moduleNameMapper": {
+    "^api/(.*)": "<rootDir>/src/api/$1",
+    "^app/(.*)": "<rootDir>/src/app/$1",
+    "^test/(.*)": "<rootDir>/test/$1"
+  },
+  "coverageProvider": "babel",
+  "collectCoverageFrom": [
+    "src/{api,app}/**/*.{js,jsx,ts,tsx}",
+    "!**/*.d.ts",
+    "!**/*.stories.tsx",
+    "!src/api/**/index.ts",
+    "!src/app/index.tsx",
+    "!src/app/components/**/index.ts",
+    "!**/node_modules/**"
+  ]
+}
