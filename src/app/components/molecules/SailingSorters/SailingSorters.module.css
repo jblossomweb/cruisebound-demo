@@ -1,0 +1,7 @@
+.sorters {
+}
+
+.sorters label {
+  @apply inline
+    mr-2;
+}

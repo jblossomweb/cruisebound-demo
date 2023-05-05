@@ -1,0 +1,171 @@
+.card {
+  @apply w-full
+    max-w-screen-lg
+    border-slate-50
+    bg-white
+    rounded-lg
+    drop-shadow-xl
+    flex
+    overflow-hidden
+    mb-4;
+}
+
+.card-left {
+  @apply p-0;
+}
+
+.ship-container {
+  @apply relative
+    top-0
+    left-0;
+}
+
+.ship-image {
+  @apply absolute
+    top-0
+    left-0
+    overflow-hidden
+    bg-gradient-to-b from-sky-50 to-blue-950
+    z-0;
+}
+
+.ship-container,
+.ship-image {
+  /* 4:3 */
+  width: 260px;
+  min-height: 195px;
+  height: 100%;
+}
+
+.dates {
+  @apply absolute
+    top-2
+    left-2
+    rounded
+    text-xs
+    text-white
+    p-2
+    z-10;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+.card-right {
+  @apply flex
+    flex-col
+    justify-between
+    p-0
+    w-full;
+}
+
+.main {
+  @apply w-full
+    relative
+    p-4;
+}
+
+.top {
+  @apply flex
+    justify-between;
+}
+
+.title {
+  @apply text-xl
+    font-bold;
+}
+
+.line-container {
+  @apply flex
+  flex-col
+  items-end;
+}
+
+.line-logo {
+  @apply relative
+    w-full
+    overflow-hidden
+    flex
+    justify-end;
+  width: 120px;
+  height: 30px;
+}
+
+.ship-name {
+  @apply mt-1
+    w-full
+    text-xs
+    text-gray-400
+    text-right;
+  margin-bottom: -20px;
+}
+
+.specs {
+  @apply flex
+    justify-start;
+}
+
+.region,
+.duration {
+  @apply text-base
+    text-gray-600
+    leading-7
+    mr-3;
+}
+
+.rating {
+  @apply text-sm
+    leading-7
+    text-black
+    font-semibold
+    mr-2
+    flex
+    content-center;
+}
+
+.rating figure {
+  @apply inline mr-1 leading-7;
+}
+
+.reviews {
+  @apply text-xs
+    leading-7
+    text-gray-400
+    mr-1;
+}
+
+.itinerary {
+  @apply text-black
+  text-xs
+  mt-4;
+}
+
+.itinerary figure {
+  @apply mx-2 inline;
+}
+
+.footer {
+  @apply w-full
+    flex
+    justify-end
+    p-4
+    bg-gray-100;
+}
+
+.price-container {
+  @apply mr-4;
+}
+
+.interior {
+  @apply text-xs
+    text-gray-600;
+}
+
+.price {
+  @apply text-xl
+    font-bold
+    text-right;
+}
+
+.price sup {
+  @apply font-medium;
+  top: -0.25em;
+}

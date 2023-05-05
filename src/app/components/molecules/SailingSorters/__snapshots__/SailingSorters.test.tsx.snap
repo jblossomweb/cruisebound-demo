@@ -1,0 +1,77 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`app/components/molecules/SailingSorters stories Controlled matches markup snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="sorters"
+  >
+    <label
+      class="label"
+    >
+      Sort by
+    </label>
+    <div
+      class="select shadow"
+    >
+      <select
+        class="inner"
+        data-testid="select"
+      >
+        <option
+          value="rating"
+        >
+          Rating (highest first)
+        </option>
+        <option
+          value="price"
+        >
+          Price (lowest first)
+        </option>
+        <option
+          value="duration"
+        >
+          Duration (longest first)
+        </option>
+      </select>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`app/components/molecules/SailingSorters stories Sample matches markup snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="sorters"
+  >
+    <label
+      class="label"
+    >
+      Sort by
+    </label>
+    <div
+      class="select shadow"
+    >
+      <select
+        class="inner"
+        data-testid="select"
+      >
+        <option
+          value="rating"
+        >
+          Rating (highest first)
+        </option>
+        <option
+          value="price"
+        >
+          Price (lowest first)
+        </option>
+        <option
+          value="duration"
+        >
+          Duration (longest first)
+        </option>
+      </select>
+    </div>
+  </div>
+</DocumentFragment>
+`;

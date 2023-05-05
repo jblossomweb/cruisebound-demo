@@ -1,0 +1,1164 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`app/components/molecules/SailingFilters stories NoOptions matches markup snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="filters"
+  >
+    <div
+      class="filter"
+    >
+      <label
+        class="label"
+      >
+        Departure port
+      </label>
+      <div
+        class="select wide naked"
+      >
+        <select
+          class="inner"
+          data-testid="select"
+        />
+      </div>
+    </div>
+    <div
+      class="filter"
+    >
+      <label
+        class="label"
+      >
+        Cruiseline
+      </label>
+      <div
+        class="select wide naked"
+      >
+        <select
+          class="inner"
+          data-testid="select"
+        />
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`app/components/molecules/SailingFilters stories Sample matches markup snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="filters"
+  >
+    <div
+      class="filter"
+    >
+      <label
+        class="label"
+      >
+        Departure port
+      </label>
+      <div
+        class="select wide naked"
+      >
+        <select
+          class="inner"
+          data-testid="select"
+        >
+          <option
+            value="any"
+          >
+            Any
+          </option>
+          <option
+            value="Naples"
+          >
+            Naples
+          </option>
+          <option
+            value="Sydney"
+          >
+            Sydney
+          </option>
+          <option
+            value="Brisbane"
+          >
+            Brisbane
+          </option>
+          <option
+            value="Singapore"
+          >
+            Singapore
+          </option>
+          <option
+            value="Le Havre (Paris)"
+          >
+            Le Havre (Paris)
+          </option>
+          <option
+            value="Colon"
+          >
+            Colon
+          </option>
+          <option
+            value="Barcelona"
+          >
+            Barcelona
+          </option>
+          <option
+            value="Port Canaveral"
+          >
+            Port Canaveral
+          </option>
+          <option
+            value="Los Angeles"
+          >
+            Los Angeles
+          </option>
+          <option
+            value="Fort Lauderdale (Port Everglades)"
+          >
+            Fort Lauderdale (Port Everglades)
+          </option>
+          <option
+            value="Sockhna"
+          >
+            Sockhna
+          </option>
+          <option
+            value="Lisbon"
+          >
+            Lisbon
+          </option>
+          <option
+            value="Miami"
+          >
+            Miami
+          </option>
+          <option
+            value="Isla Baltra"
+          >
+            Isla Baltra
+          </option>
+          <option
+            value="Genoa"
+          >
+            Genoa
+          </option>
+          <option
+            value="Hamburg"
+          >
+            Hamburg
+          </option>
+          <option
+            value="Palermo"
+          >
+            Palermo
+          </option>
+          <option
+            value="La Spezia (Cinque Terre)"
+          >
+            La Spezia (Cinque Terre)
+          </option>
+          <option
+            value="San Francisco"
+          >
+            San Francisco
+          </option>
+          <option
+            value="New York"
+          >
+            New York
+          </option>
+          <option
+            value="Honolulu"
+          >
+            Honolulu
+          </option>
+          <option
+            value="San Diego"
+          >
+            San Diego
+          </option>
+          <option
+            value="Abu Dhabi"
+          >
+            Abu Dhabi
+          </option>
+          <option
+            value="New Orleans"
+          >
+            New Orleans
+          </option>
+          <option
+            value="Cape Town"
+          >
+            Cape Town
+          </option>
+          <option
+            value="Jeddah"
+          >
+            Jeddah
+          </option>
+          <option
+            value="Rotterdam"
+          >
+            Rotterdam
+          </option>
+          <option
+            value="Tenerife"
+          >
+            Tenerife
+          </option>
+          <option
+            value="Civitavecchia (Rome)"
+          >
+            Civitavecchia (Rome)
+          </option>
+          <option
+            value="Mosquera Islet"
+          >
+            Mosquera Islet
+          </option>
+          <option
+            value="Dubai"
+          >
+            Dubai
+          </option>
+          <option
+            value="Tokyo"
+          >
+            Tokyo
+          </option>
+          <option
+            value="Palma de Mallorca"
+          >
+            Palma de Mallorca
+          </option>
+          <option
+            value="Southampton"
+          >
+            Southampton
+          </option>
+        </select>
+      </div>
+    </div>
+    <div
+      class="filter"
+    >
+      <label
+        class="label"
+      >
+        Cruiseline
+      </label>
+      <div
+        class="select wide naked"
+      >
+        <select
+          class="inner"
+          data-testid="select"
+        >
+          <option
+            value="any"
+          >
+            Any
+          </option>
+          <option
+            value="MSC Cruises"
+          >
+            MSC Cruises
+          </option>
+          <option
+            value="Holland America Line"
+          >
+            Holland America Line
+          </option>
+          <option
+            value="Princess Cruises"
+          >
+            Princess Cruises
+          </option>
+          <option
+            value="Royal Caribbean International"
+          >
+            Royal Caribbean International
+          </option>
+          <option
+            value="Norwegian Cruise Line"
+          >
+            Norwegian Cruise Line
+          </option>
+          <option
+            value="Seabourn Cruise Line"
+          >
+            Seabourn Cruise Line
+          </option>
+          <option
+            value="Carnival Cruise Line"
+          >
+            Carnival Cruise Line
+          </option>
+          <option
+            value="Celebrity Cruises"
+          >
+            Celebrity Cruises
+          </option>
+          <option
+            value="Oceania Cruises"
+          >
+            Oceania Cruises
+          </option>
+          <option
+            value="Azamara"
+          >
+            Azamara
+          </option>
+          <option
+            value="Cunard"
+          >
+            Cunard
+          </option>
+        </select>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`app/components/molecules/SailingFilters stories SelectedBoth matches markup snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="filters"
+  >
+    <div
+      class="filter"
+    >
+      <label
+        class="label"
+      >
+        Departure port
+      </label>
+      <div
+        class="select wide naked"
+      >
+        <select
+          class="inner"
+          data-testid="select"
+        >
+          <option
+            value="any"
+          >
+            Any
+          </option>
+          <option
+            value="Naples"
+          >
+            Naples
+          </option>
+          <option
+            value="Sydney"
+          >
+            Sydney
+          </option>
+          <option
+            value="Brisbane"
+          >
+            Brisbane
+          </option>
+          <option
+            value="Singapore"
+          >
+            Singapore
+          </option>
+          <option
+            value="Le Havre (Paris)"
+          >
+            Le Havre (Paris)
+          </option>
+          <option
+            value="Colon"
+          >
+            Colon
+          </option>
+          <option
+            value="Barcelona"
+          >
+            Barcelona
+          </option>
+          <option
+            value="Port Canaveral"
+          >
+            Port Canaveral
+          </option>
+          <option
+            value="Los Angeles"
+          >
+            Los Angeles
+          </option>
+          <option
+            value="Fort Lauderdale (Port Everglades)"
+          >
+            Fort Lauderdale (Port Everglades)
+          </option>
+          <option
+            value="Sockhna"
+          >
+            Sockhna
+          </option>
+          <option
+            value="Lisbon"
+          >
+            Lisbon
+          </option>
+          <option
+            value="Miami"
+          >
+            Miami
+          </option>
+          <option
+            value="Isla Baltra"
+          >
+            Isla Baltra
+          </option>
+          <option
+            value="Genoa"
+          >
+            Genoa
+          </option>
+          <option
+            value="Hamburg"
+          >
+            Hamburg
+          </option>
+          <option
+            value="Palermo"
+          >
+            Palermo
+          </option>
+          <option
+            value="La Spezia (Cinque Terre)"
+          >
+            La Spezia (Cinque Terre)
+          </option>
+          <option
+            value="San Francisco"
+          >
+            San Francisco
+          </option>
+          <option
+            value="New York"
+          >
+            New York
+          </option>
+          <option
+            value="Honolulu"
+          >
+            Honolulu
+          </option>
+          <option
+            value="San Diego"
+          >
+            San Diego
+          </option>
+          <option
+            value="Abu Dhabi"
+          >
+            Abu Dhabi
+          </option>
+          <option
+            value="New Orleans"
+          >
+            New Orleans
+          </option>
+          <option
+            value="Cape Town"
+          >
+            Cape Town
+          </option>
+          <option
+            value="Jeddah"
+          >
+            Jeddah
+          </option>
+          <option
+            value="Rotterdam"
+          >
+            Rotterdam
+          </option>
+          <option
+            value="Tenerife"
+          >
+            Tenerife
+          </option>
+          <option
+            value="Civitavecchia (Rome)"
+          >
+            Civitavecchia (Rome)
+          </option>
+          <option
+            value="Mosquera Islet"
+          >
+            Mosquera Islet
+          </option>
+          <option
+            value="Dubai"
+          >
+            Dubai
+          </option>
+          <option
+            value="Tokyo"
+          >
+            Tokyo
+          </option>
+          <option
+            value="Palma de Mallorca"
+          >
+            Palma de Mallorca
+          </option>
+          <option
+            value="Southampton"
+          >
+            Southampton
+          </option>
+        </select>
+      </div>
+    </div>
+    <div
+      class="filter"
+    >
+      <label
+        class="label"
+      >
+        Cruiseline
+      </label>
+      <div
+        class="select wide naked"
+      >
+        <select
+          class="inner"
+          data-testid="select"
+        >
+          <option
+            value="any"
+          >
+            Any
+          </option>
+          <option
+            value="MSC Cruises"
+          >
+            MSC Cruises
+          </option>
+          <option
+            value="Holland America Line"
+          >
+            Holland America Line
+          </option>
+          <option
+            value="Princess Cruises"
+          >
+            Princess Cruises
+          </option>
+          <option
+            value="Royal Caribbean International"
+          >
+            Royal Caribbean International
+          </option>
+          <option
+            value="Norwegian Cruise Line"
+          >
+            Norwegian Cruise Line
+          </option>
+          <option
+            value="Seabourn Cruise Line"
+          >
+            Seabourn Cruise Line
+          </option>
+          <option
+            value="Carnival Cruise Line"
+          >
+            Carnival Cruise Line
+          </option>
+          <option
+            value="Celebrity Cruises"
+          >
+            Celebrity Cruises
+          </option>
+          <option
+            value="Oceania Cruises"
+          >
+            Oceania Cruises
+          </option>
+          <option
+            value="Azamara"
+          >
+            Azamara
+          </option>
+          <option
+            value="Cunard"
+          >
+            Cunard
+          </option>
+        </select>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`app/components/molecules/SailingFilters stories SelectedCruiseline matches markup snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="filters"
+  >
+    <div
+      class="filter"
+    >
+      <label
+        class="label"
+      >
+        Departure port
+      </label>
+      <div
+        class="select wide naked"
+      >
+        <select
+          class="inner"
+          data-testid="select"
+        >
+          <option
+            value="any"
+          >
+            Any
+          </option>
+          <option
+            value="Naples"
+          >
+            Naples
+          </option>
+          <option
+            value="Sydney"
+          >
+            Sydney
+          </option>
+          <option
+            value="Brisbane"
+          >
+            Brisbane
+          </option>
+          <option
+            value="Singapore"
+          >
+            Singapore
+          </option>
+          <option
+            value="Le Havre (Paris)"
+          >
+            Le Havre (Paris)
+          </option>
+          <option
+            value="Colon"
+          >
+            Colon
+          </option>
+          <option
+            value="Barcelona"
+          >
+            Barcelona
+          </option>
+          <option
+            value="Port Canaveral"
+          >
+            Port Canaveral
+          </option>
+          <option
+            value="Los Angeles"
+          >
+            Los Angeles
+          </option>
+          <option
+            value="Fort Lauderdale (Port Everglades)"
+          >
+            Fort Lauderdale (Port Everglades)
+          </option>
+          <option
+            value="Sockhna"
+          >
+            Sockhna
+          </option>
+          <option
+            value="Lisbon"
+          >
+            Lisbon
+          </option>
+          <option
+            value="Miami"
+          >
+            Miami
+          </option>
+          <option
+            value="Isla Baltra"
+          >
+            Isla Baltra
+          </option>
+          <option
+            value="Genoa"
+          >
+            Genoa
+          </option>
+          <option
+            value="Hamburg"
+          >
+            Hamburg
+          </option>
+          <option
+            value="Palermo"
+          >
+            Palermo
+          </option>
+          <option
+            value="La Spezia (Cinque Terre)"
+          >
+            La Spezia (Cinque Terre)
+          </option>
+          <option
+            value="San Francisco"
+          >
+            San Francisco
+          </option>
+          <option
+            value="New York"
+          >
+            New York
+          </option>
+          <option
+            value="Honolulu"
+          >
+            Honolulu
+          </option>
+          <option
+            value="San Diego"
+          >
+            San Diego
+          </option>
+          <option
+            value="Abu Dhabi"
+          >
+            Abu Dhabi
+          </option>
+          <option
+            value="New Orleans"
+          >
+            New Orleans
+          </option>
+          <option
+            value="Cape Town"
+          >
+            Cape Town
+          </option>
+          <option
+            value="Jeddah"
+          >
+            Jeddah
+          </option>
+          <option
+            value="Rotterdam"
+          >
+            Rotterdam
+          </option>
+          <option
+            value="Tenerife"
+          >
+            Tenerife
+          </option>
+          <option
+            value="Civitavecchia (Rome)"
+          >
+            Civitavecchia (Rome)
+          </option>
+          <option
+            value="Mosquera Islet"
+          >
+            Mosquera Islet
+          </option>
+          <option
+            value="Dubai"
+          >
+            Dubai
+          </option>
+          <option
+            value="Tokyo"
+          >
+            Tokyo
+          </option>
+          <option
+            value="Palma de Mallorca"
+          >
+            Palma de Mallorca
+          </option>
+          <option
+            value="Southampton"
+          >
+            Southampton
+          </option>
+        </select>
+      </div>
+    </div>
+    <div
+      class="filter"
+    >
+      <label
+        class="label"
+      >
+        Cruiseline
+      </label>
+      <div
+        class="select wide naked"
+      >
+        <select
+          class="inner"
+          data-testid="select"
+        >
+          <option
+            value="any"
+          >
+            Any
+          </option>
+          <option
+            value="MSC Cruises"
+          >
+            MSC Cruises
+          </option>
+          <option
+            value="Holland America Line"
+          >
+            Holland America Line
+          </option>
+          <option
+            value="Princess Cruises"
+          >
+            Princess Cruises
+          </option>
+          <option
+            value="Royal Caribbean International"
+          >
+            Royal Caribbean International
+          </option>
+          <option
+            value="Norwegian Cruise Line"
+          >
+            Norwegian Cruise Line
+          </option>
+          <option
+            value="Seabourn Cruise Line"
+          >
+            Seabourn Cruise Line
+          </option>
+          <option
+            value="Carnival Cruise Line"
+          >
+            Carnival Cruise Line
+          </option>
+          <option
+            value="Celebrity Cruises"
+          >
+            Celebrity Cruises
+          </option>
+          <option
+            value="Oceania Cruises"
+          >
+            Oceania Cruises
+          </option>
+          <option
+            value="Azamara"
+          >
+            Azamara
+          </option>
+          <option
+            value="Cunard"
+          >
+            Cunard
+          </option>
+        </select>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`app/components/molecules/SailingFilters stories SelectedPort matches markup snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="filters"
+  >
+    <div
+      class="filter"
+    >
+      <label
+        class="label"
+      >
+        Departure port
+      </label>
+      <div
+        class="select wide naked"
+      >
+        <select
+          class="inner"
+          data-testid="select"
+        >
+          <option
+            value="any"
+          >
+            Any
+          </option>
+          <option
+            value="Naples"
+          >
+            Naples
+          </option>
+          <option
+            value="Sydney"
+          >
+            Sydney
+          </option>
+          <option
+            value="Brisbane"
+          >
+            Brisbane
+          </option>
+          <option
+            value="Singapore"
+          >
+            Singapore
+          </option>
+          <option
+            value="Le Havre (Paris)"
+          >
+            Le Havre (Paris)
+          </option>
+          <option
+            value="Colon"
+          >
+            Colon
+          </option>
+          <option
+            value="Barcelona"
+          >
+            Barcelona
+          </option>
+          <option
+            value="Port Canaveral"
+          >
+            Port Canaveral
+          </option>
+          <option
+            value="Los Angeles"
+          >
+            Los Angeles
+          </option>
+          <option
+            value="Fort Lauderdale (Port Everglades)"
+          >
+            Fort Lauderdale (Port Everglades)
+          </option>
+          <option
+            value="Sockhna"
+          >
+            Sockhna
+          </option>
+          <option
+            value="Lisbon"
+          >
+            Lisbon
+          </option>
+          <option
+            value="Miami"
+          >
+            Miami
+          </option>
+          <option
+            value="Isla Baltra"
+          >
+            Isla Baltra
+          </option>
+          <option
+            value="Genoa"
+          >
+            Genoa
+          </option>
+          <option
+            value="Hamburg"
+          >
+            Hamburg
+          </option>
+          <option
+            value="Palermo"
+          >
+            Palermo
+          </option>
+          <option
+            value="La Spezia (Cinque Terre)"
+          >
+            La Spezia (Cinque Terre)
+          </option>
+          <option
+            value="San Francisco"
+          >
+            San Francisco
+          </option>
+          <option
+            value="New York"
+          >
+            New York
+          </option>
+          <option
+            value="Honolulu"
+          >
+            Honolulu
+          </option>
+          <option
+            value="San Diego"
+          >
+            San Diego
+          </option>
+          <option
+            value="Abu Dhabi"
+          >
+            Abu Dhabi
+          </option>
+          <option
+            value="New Orleans"
+          >
+            New Orleans
+          </option>
+          <option
+            value="Cape Town"
+          >
+            Cape Town
+          </option>
+          <option
+            value="Jeddah"
+          >
+            Jeddah
+          </option>
+          <option
+            value="Rotterdam"
+          >
+            Rotterdam
+          </option>
+          <option
+            value="Tenerife"
+          >
+            Tenerife
+          </option>
+          <option
+            value="Civitavecchia (Rome)"
+          >
+            Civitavecchia (Rome)
+          </option>
+          <option
+            value="Mosquera Islet"
+          >
+            Mosquera Islet
+          </option>
+          <option
+            value="Dubai"
+          >
+            Dubai
+          </option>
+          <option
+            value="Tokyo"
+          >
+            Tokyo
+          </option>
+          <option
+            value="Palma de Mallorca"
+          >
+            Palma de Mallorca
+          </option>
+          <option
+            value="Southampton"
+          >
+            Southampton
+          </option>
+        </select>
+      </div>
+    </div>
+    <div
+      class="filter"
+    >
+      <label
+        class="label"
+      >
+        Cruiseline
+      </label>
+      <div
+        class="select wide naked"
+      >
+        <select
+          class="inner"
+          data-testid="select"
+        >
+          <option
+            value="any"
+          >
+            Any
+          </option>
+          <option
+            value="MSC Cruises"
+          >
+            MSC Cruises
+          </option>
+          <option
+            value="Holland America Line"
+          >
+            Holland America Line
+          </option>
+          <option
+            value="Princess Cruises"
+          >
+            Princess Cruises
+          </option>
+          <option
+            value="Royal Caribbean International"
+          >
+            Royal Caribbean International
+          </option>
+          <option
+            value="Norwegian Cruise Line"
+          >
+            Norwegian Cruise Line
+          </option>
+          <option
+            value="Seabourn Cruise Line"
+          >
+            Seabourn Cruise Line
+          </option>
+          <option
+            value="Carnival Cruise Line"
+          >
+            Carnival Cruise Line
+          </option>
+          <option
+            value="Celebrity Cruises"
+          >
+            Celebrity Cruises
+          </option>
+          <option
+            value="Oceania Cruises"
+          >
+            Oceania Cruises
+          </option>
+          <option
+            value="Azamara"
+          >
+            Azamara
+          </option>
+          <option
+            value="Cunard"
+          >
+            Cunard
+          </option>
+        </select>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
