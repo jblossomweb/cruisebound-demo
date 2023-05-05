@@ -24,12 +24,32 @@ const SailingSorters: React.FC<SailingSortersProps> = ({
           display: 'Rating (highest first)',
         },
         {
+          value: 'rating-asc',
+          display: 'Rating (lowest first)',
+        },
+        {
           value: 'price',
           display: 'Price (lowest first)',
         },
         {
+          value: 'price-desc',
+          display: 'Price (highest first)',
+        },
+        {
           value: 'duration',
           display: 'Duration (longest first)',
+        },
+        {
+          value: 'duration-asc',
+          display: 'Duration (shortest first)',
+        },
+        {
+          value: 'departure',
+          display: 'Departure Date (earliest first)',
+        },
+        {
+          value: 'departure-desc',
+          display: 'Departure Date (latest first)',
         },
       ]}
       onSelect={(value: string) => {

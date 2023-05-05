@@ -173,14 +173,39 @@ exports[`app/views/SailingsPage component stories Empty matches markup snapshot 
                       Rating (highest first)
                     </option>
                     <option
+                      value="rating-asc"
+                    >
+                      Rating (lowest first)
+                    </option>
+                    <option
                       value="price"
                     >
                       Price (lowest first)
                     </option>
                     <option
+                      value="price-desc"
+                    >
+                      Price (highest first)
+                    </option>
+                    <option
                       value="duration"
                     >
                       Duration (longest first)
+                    </option>
+                    <option
+                      value="duration-asc"
+                    >
+                      Duration (shortest first)
+                    </option>
+                    <option
+                      value="departure"
+                    >
+                      Departure Date (earliest first)
+                    </option>
+                    <option
+                      value="departure-desc"
+                    >
+                      Departure Date (latest first)
                     </option>
                   </select>
                 </div>
@@ -397,14 +422,39 @@ exports[`app/views/SailingsPage component stories HasError matches markup snapsh
                       Rating (highest first)
                     </option>
                     <option
+                      value="rating-asc"
+                    >
+                      Rating (lowest first)
+                    </option>
+                    <option
                       value="price"
                     >
                       Price (lowest first)
                     </option>
                     <option
+                      value="price-desc"
+                    >
+                      Price (highest first)
+                    </option>
+                    <option
                       value="duration"
                     >
                       Duration (longest first)
+                    </option>
+                    <option
+                      value="duration-asc"
+                    >
+                      Duration (shortest first)
+                    </option>
+                    <option
+                      value="departure"
+                    >
+                      Departure Date (earliest first)
+                    </option>
+                    <option
+                      value="departure-desc"
+                    >
+                      Departure Date (latest first)
                     </option>
                   </select>
                 </div>
@@ -841,14 +891,39 @@ exports[`app/views/SailingsPage component stories Sample matches markup snapshot
                       Rating (highest first)
                     </option>
                     <option
+                      value="rating-asc"
+                    >
+                      Rating (lowest first)
+                    </option>
+                    <option
                       value="price"
                     >
                       Price (lowest first)
                     </option>
                     <option
+                      value="price-desc"
+                    >
+                      Price (highest first)
+                    </option>
+                    <option
                       value="duration"
                     >
                       Duration (longest first)
+                    </option>
+                    <option
+                      value="duration-asc"
+                    >
+                      Duration (shortest first)
+                    </option>
+                    <option
+                      value="departure"
+                    >
+                      Departure Date (earliest first)
+                    </option>
+                    <option
+                      value="departure-desc"
+                    >
+                      Departure Date (latest first)
                     </option>
                   </select>
                 </div>

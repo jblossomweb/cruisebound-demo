@@ -29,14 +29,39 @@ exports[`app/components/organisms/SailingList stories Filtering matches markup s
               Rating (highest first)
             </option>
             <option
+              value="rating-asc"
+            >
+              Rating (lowest first)
+            </option>
+            <option
               value="price"
             >
               Price (lowest first)
             </option>
             <option
+              value="price-desc"
+            >
+              Price (highest first)
+            </option>
+            <option
               value="duration"
             >
               Duration (longest first)
+            </option>
+            <option
+              value="duration-asc"
+            >
+              Duration (shortest first)
+            </option>
+            <option
+              value="departure"
+            >
+              Departure Date (earliest first)
+            </option>
+            <option
+              value="departure-desc"
+            >
+              Departure Date (latest first)
             </option>
           </select>
         </div>
@@ -100,14 +125,39 @@ exports[`app/components/organisms/SailingList stories Sample matches markup snap
               Rating (highest first)
             </option>
             <option
+              value="rating-asc"
+            >
+              Rating (lowest first)
+            </option>
+            <option
               value="price"
             >
               Price (lowest first)
             </option>
             <option
+              value="price-desc"
+            >
+              Price (highest first)
+            </option>
+            <option
               value="duration"
             >
               Duration (longest first)
+            </option>
+            <option
+              value="duration-asc"
+            >
+              Duration (shortest first)
+            </option>
+            <option
+              value="departure"
+            >
+              Departure Date (earliest first)
+            </option>
+            <option
+              value="departure-desc"
+            >
+              Departure Date (latest first)
             </option>
           </select>
         </div>
@@ -176,14 +226,39 @@ exports[`app/components/organisms/SailingList stories WithError matches markup s
               Rating (highest first)
             </option>
             <option
+              value="rating-asc"
+            >
+              Rating (lowest first)
+            </option>
+            <option
               value="price"
             >
               Price (lowest first)
             </option>
             <option
+              value="price-desc"
+            >
+              Price (highest first)
+            </option>
+            <option
               value="duration"
             >
               Duration (longest first)
+            </option>
+            <option
+              value="duration-asc"
+            >
+              Duration (shortest first)
+            </option>
+            <option
+              value="departure"
+            >
+              Departure Date (earliest first)
+            </option>
+            <option
+              value="departure-desc"
+            >
+              Departure Date (latest first)
             </option>
           </select>
         </div>
@@ -247,14 +322,39 @@ exports[`app/components/organisms/SailingList stories WithReset matches markup s
               Rating (highest first)
             </option>
             <option
+              value="rating-asc"
+            >
+              Rating (lowest first)
+            </option>
+            <option
               value="price"
             >
               Price (lowest first)
             </option>
             <option
+              value="price-desc"
+            >
+              Price (highest first)
+            </option>
+            <option
               value="duration"
             >
               Duration (longest first)
+            </option>
+            <option
+              value="duration-asc"
+            >
+              Duration (shortest first)
+            </option>
+            <option
+              value="departure"
+            >
+              Departure Date (earliest first)
+            </option>
+            <option
+              value="departure-desc"
+            >
+              Departure Date (latest first)
             </option>
           </select>
         </div>

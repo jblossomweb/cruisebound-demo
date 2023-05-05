@@ -23,14 +23,39 @@ exports[`app/components/molecules/SailingSorters stories Controlled matches mark
           Rating (highest first)
         </option>
         <option
+          value="rating-asc"
+        >
+          Rating (lowest first)
+        </option>
+        <option
           value="price"
         >
           Price (lowest first)
         </option>
         <option
+          value="price-desc"
+        >
+          Price (highest first)
+        </option>
+        <option
           value="duration"
         >
           Duration (longest first)
+        </option>
+        <option
+          value="duration-asc"
+        >
+          Duration (shortest first)
+        </option>
+        <option
+          value="departure"
+        >
+          Departure Date (earliest first)
+        </option>
+        <option
+          value="departure-desc"
+        >
+          Departure Date (latest first)
         </option>
       </select>
     </div>
@@ -61,14 +86,39 @@ exports[`app/components/molecules/SailingSorters stories Sample matches markup s
           Rating (highest first)
         </option>
         <option
+          value="rating-asc"
+        >
+          Rating (lowest first)
+        </option>
+        <option
           value="price"
         >
           Price (lowest first)
         </option>
         <option
+          value="price-desc"
+        >
+          Price (highest first)
+        </option>
+        <option
           value="duration"
         >
           Duration (longest first)
+        </option>
+        <option
+          value="duration-asc"
+        >
+          Duration (shortest first)
+        </option>
+        <option
+          value="departure"
+        >
+          Departure Date (earliest first)
+        </option>
+        <option
+          value="departure-desc"
+        >
+          Departure Date (latest first)
         </option>
       </select>
     </div>
