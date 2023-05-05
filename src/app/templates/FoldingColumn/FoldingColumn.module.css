@@ -1,0 +1,59 @@
+.page {
+  @apply w-full h-screen flex;
+}
+
+.left {
+  @apply w-16 h-screen bg-sky-950 text-gray-200;
+  transition: width 0.5s;
+}
+
+.left .main {
+  @apply opacity-0;
+  transition: opacity 0.25s;
+}
+
+.left.expanded {
+  @apply w-80;
+}
+
+.left.expanded .toggle button img,
+.left.expanded .toggle button svg {
+  transform: rotate(-180deg);
+}
+
+.left.expanded .main {
+  @apply opacity-100;
+}
+
+.right {
+  @apply h-screen w-full overflow-y-auto bg-white text-black;
+}
+
+.content {
+  @apply p-4 w-full h-full;
+}
+
+.stack {
+  @apply w-full h-full flex flex-col justify-between;
+}
+
+.top {
+  @apply w-full flex flex-col justify-start;
+}
+
+.toggle {
+  @apply w-full text-right pb-4;
+}
+
+.toggle button {
+  @apply p-2 leading-3;
+}
+
+.toggle button img,
+.toggle button svg {
+  transition: transform 0.5s;
+}
+
+.footer {
+  @apply w-full text-center;
+}

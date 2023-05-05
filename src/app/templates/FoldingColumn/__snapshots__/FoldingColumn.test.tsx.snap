@@ -1,0 +1,405 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`app/templates/FoldingColumn interaction should collapse left column when arrow is clicked 1`] = `
+<DocumentFragment>
+  <div
+    class="page"
+  >
+    <div
+      class="left expanded"
+      data-testid="left-col"
+    >
+      <div
+        class="content"
+      >
+        <div
+          class="stack"
+        >
+          <div
+            class="top"
+          >
+            <div
+              class="toggle"
+            >
+              <button
+                class="btn btn-slate btn-medium"
+                type="button"
+              >
+                <svg
+                  fill="none"
+                  height="12"
+                  viewBox="0 0 9 9"
+                  width="12"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M1 4.5L8.5 4.5"
+                    stroke="#fff"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                  <path
+                    d="M4.75 0.750001L8.5 4.5L4.75 8.25"
+                    stroke="#fff"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+              </button>
+            </div>
+            <div
+              class="main"
+            >
+              left side content
+            </div>
+          </div>
+          <div
+            class="footer"
+          >
+            <figure
+              class=""
+            >
+              <span
+                style="box-sizing: border-box; display: inline-block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: relative; max-width: 100%;"
+              >
+                <span
+                  style="box-sizing: border-box; display: block; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; max-width: 100%;"
+                >
+                  <img
+                    alt=""
+                    aria-hidden="true"
+                    src="data:image/svg+xml,%3csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20version=%271.1%27%20width=%27176%27%20height=%2786%27/%3e"
+                    style="display: block; max-width: 100%; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px;"
+                  />
+                </span>
+                <img
+                  alt="Cruisebound"
+                  aria-label="Cruisebound"
+                  data-nimg="intrinsic"
+                  decoding="async"
+                  src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                  style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%;"
+                  title="Cruisebound"
+                />
+                <noscript />
+              </span>
+            </figure>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="right"
+    >
+      <div
+        class="content"
+      >
+        right side content
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`app/templates/FoldingColumn interaction should collapse left column when arrow is clicked 2`] = `
+<DocumentFragment>
+  <div
+    class="page"
+  >
+    <div
+      class="left"
+      data-testid="left-col"
+    >
+      <div
+        class="content"
+      >
+        <div
+          class="stack"
+        >
+          <div
+            class="top"
+          >
+            <div
+              class="toggle"
+            >
+              <button
+                class="btn btn-slate btn-medium"
+                type="button"
+              >
+                <svg
+                  fill="none"
+                  height="12"
+                  viewBox="0 0 9 9"
+                  width="12"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M1 4.5L8.5 4.5"
+                    stroke="#fff"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                  <path
+                    d="M4.75 0.750001L8.5 4.5L4.75 8.25"
+                    stroke="#fff"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+              </button>
+            </div>
+            <div
+              class="main"
+            >
+              left side content
+            </div>
+          </div>
+          <div
+            class="footer"
+          >
+            <figure
+              class=""
+            >
+              <span
+                style="box-sizing: border-box; display: inline-block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: relative; max-width: 100%;"
+              >
+                <span
+                  style="box-sizing: border-box; display: block; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; max-width: 100%;"
+                >
+                  <img
+                    alt=""
+                    aria-hidden="true"
+                    src="data:image/svg+xml,%3csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20version=%271.1%27%20width=%27176%27%20height=%2786%27/%3e"
+                    style="display: block; max-width: 100%; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px;"
+                  />
+                </span>
+                <img
+                  alt="Cruisebound"
+                  aria-label="Cruisebound"
+                  data-nimg="intrinsic"
+                  decoding="async"
+                  src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                  style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%;"
+                  title="Cruisebound"
+                />
+                <noscript />
+              </span>
+            </figure>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="right"
+    >
+      <div
+        class="content"
+      >
+        right side content
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`app/templates/FoldingColumn interaction should start out as expanded 1`] = `
+<DocumentFragment>
+  <div
+    class="page"
+  >
+    <div
+      class="left expanded"
+      data-testid="left-col"
+    >
+      <div
+        class="content"
+      >
+        <div
+          class="stack"
+        >
+          <div
+            class="top"
+          >
+            <div
+              class="toggle"
+            >
+              <button
+                class="btn btn-slate btn-medium"
+                type="button"
+              >
+                <svg
+                  fill="none"
+                  height="12"
+                  viewBox="0 0 9 9"
+                  width="12"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M1 4.5L8.5 4.5"
+                    stroke="#fff"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                  <path
+                    d="M4.75 0.750001L8.5 4.5L4.75 8.25"
+                    stroke="#fff"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+              </button>
+            </div>
+            <div
+              class="main"
+            >
+              left side content
+            </div>
+          </div>
+          <div
+            class="footer"
+          >
+            <figure
+              class=""
+            >
+              <span
+                style="box-sizing: border-box; display: inline-block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: relative; max-width: 100%;"
+              >
+                <span
+                  style="box-sizing: border-box; display: block; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; max-width: 100%;"
+                >
+                  <img
+                    alt=""
+                    aria-hidden="true"
+                    src="data:image/svg+xml,%3csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20version=%271.1%27%20width=%27176%27%20height=%2786%27/%3e"
+                    style="display: block; max-width: 100%; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px;"
+                  />
+                </span>
+                <img
+                  alt="Cruisebound"
+                  aria-label="Cruisebound"
+                  data-nimg="intrinsic"
+                  decoding="async"
+                  src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                  style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%;"
+                  title="Cruisebound"
+                />
+                <noscript />
+              </span>
+            </figure>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="right"
+    >
+      <div
+        class="content"
+      >
+        right side content
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`app/templates/FoldingColumn stories Sample matches markup snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="page"
+  >
+    <div
+      class="left expanded"
+      data-testid="left-col"
+    >
+      <div
+        class="content"
+      >
+        <div
+          class="stack"
+        >
+          <div
+            class="top"
+          >
+            <div
+              class="toggle"
+            >
+              <button
+                class="btn btn-slate btn-medium"
+                type="button"
+              >
+                <svg
+                  fill="none"
+                  height="12"
+                  viewBox="0 0 9 9"
+                  width="12"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M1 4.5L8.5 4.5"
+                    stroke="#fff"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                  <path
+                    d="M4.75 0.750001L8.5 4.5L4.75 8.25"
+                    stroke="#fff"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+              </button>
+            </div>
+            <div
+              class="main"
+            >
+              left side content
+            </div>
+          </div>
+          <div
+            class="footer"
+          >
+            <figure
+              class=""
+            >
+              <span
+                style="box-sizing: border-box; display: inline-block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: relative; max-width: 100%;"
+              >
+                <span
+                  style="box-sizing: border-box; display: block; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; max-width: 100%;"
+                >
+                  <img
+                    alt=""
+                    aria-hidden="true"
+                    src="data:image/svg+xml,%3csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20version=%271.1%27%20width=%27176%27%20height=%2786%27/%3e"
+                    style="display: block; max-width: 100%; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px;"
+                  />
+                </span>
+                <img
+                  alt="Cruisebound"
+                  aria-label="Cruisebound"
+                  data-nimg="intrinsic"
+                  decoding="async"
+                  src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                  style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%;"
+                  title="Cruisebound"
+                />
+                <noscript />
+              </span>
+            </figure>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="right"
+    >
+      <div
+        class="content"
+      >
+        right side content
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
