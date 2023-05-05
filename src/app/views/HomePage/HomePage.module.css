@@ -24,7 +24,8 @@
 .title {
   @apply m-0
     leading-5
-    text-6xl;
+    text-6xl
+    font-semibold;
 }
 
 .title,
@@ -38,11 +39,8 @@
     text-base;
 }
 
-.code {
-  @apply p-2 rounded-md
-    bg-slate-300
-    text-sm
-    font-mono;
+.description button {
+  @apply mx-2;
 }
 
 .footer {

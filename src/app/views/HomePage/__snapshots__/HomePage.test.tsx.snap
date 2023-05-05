@@ -11,22 +11,33 @@ exports[`app/views/HomePage component stories Sample matches markup snapshot 1`]
       <h1
         class="title"
       >
-        Welcome to 
-        <a
-          href="https://nextjs.org"
-        >
-          Next.js!
-        </a>
+        Cruisebound Demo
       </h1>
       <p
         class="description"
       >
-        Get started by editing 
-        <code
-          class="code"
+        <button
+          class="btn btn-blue btn-large btn-shadow"
+          type="button"
         >
-          app/views/HomePage/HomePage.tsx
-        </code>
+          <a
+            href="/sailings"
+          >
+            View Demo
+          </a>
+        </button>
+        <button
+          class="btn btn-blue btn-large btn-shadow"
+          type="button"
+        >
+          <a
+            href="https://github.com/jblossomweb/cruisebound-demo"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            View Code
+          </a>
+        </button>
       </p>
       <div
         class="footer"
@@ -43,18 +54,18 @@ exports[`app/views/HomePage component stories Sample matches markup snapshot 1`]
               <img
                 alt=""
                 aria-hidden="true"
-                src="data:image/svg+xml,%3csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20version=%271.1%27%20width=%2780%27%20height=%2748%27/%3e"
+                src="data:image/svg+xml,%3csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20version=%271.1%27%20width=%27176%27%20height=%2786%27/%3e"
                 style="display: block; max-width: 100%; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px;"
               />
             </span>
             <img
-              alt="Next.js"
-              aria-label="Next.js"
+              alt="Cruisebound"
+              aria-label="Cruisebound"
               data-nimg="intrinsic"
               decoding="async"
               src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
               style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%;"
-              title="Next.js"
+              title="Cruisebound"
             />
             <noscript />
           </span>
