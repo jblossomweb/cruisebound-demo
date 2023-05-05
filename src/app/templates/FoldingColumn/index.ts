@@ -1,2 +1,2 @@
-export type { ButtonProps } from './FoldingColumn'
+export type { FoldingColumnProps } from './FoldingColumn'
 export { default } from './FoldingColumn'
