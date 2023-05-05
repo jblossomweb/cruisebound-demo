@@ -1,0 +1,77 @@
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.main {
+  @apply min-h-screen
+    flex flex-col
+    justify-start
+    items-start;
+}
+
+.error {
+  @apply pb-2 text-red-600;
+}
+
+.heading {
+  @apply flex
+    content-center
+    justify-start
+    pb-2
+    leading-6
+    text-black;
+}
+
+.count {
+  @apply pr-2;
+}
+
+.reset {
+  margin-top: -2px;
+}
+
+.sort {
+  @apply w-full
+    max-w-screen-lg
+    flex
+    justify-end;
+}
+
+.sailings {
+  @apply w-full;
+  animation: fadeIn 0.25s;
+}
+
+.pagination {
+  @apply flex mb-4;
+}
+
+.page-item {
+  @apply mr-2;
+}
+
+.page-link {
+  @apply border
+    rounded
+    drop-shadow-sm
+    p-2
+    leading-3
+    block;
+}
+
+.page-active .page-link,
+.page-ctrl .page-link {
+  @apply bg-slate-500 text-white;
+}
+
+.page-next .page-link {
+}
+
+.page-prev .page-link svg {
+  transform: rotate(-180deg);
+}
