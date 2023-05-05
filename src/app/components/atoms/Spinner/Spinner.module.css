@@ -1,0 +1,27 @@
+.spinner {
+  @apply text-gray-100 animate-spin;
+}
+
+.blue {
+  @apply fill-blue-600;
+}
+
+.red {
+  @apply fill-red-600;
+}
+
+.green {
+  @apply fill-green-600;
+}
+
+.small {
+  @apply w-8 h-8;
+}
+
+.medium {
+  @apply w-12 h-12;
+}
+
+.large {
+  @apply w-24 h-24;
+}

@@ -1,0 +1,32 @@
+.select {
+  @apply font-normal
+    text-base
+    text-gray-500
+    p-0
+    cursor-pointer
+    border
+    border-gray-300
+    rounded
+    inline-block;
+}
+
+.select.wide {
+  @apply w-full;
+}
+
+.select.naked .inner {
+  -moz-appearance: none;
+  -webkit-appearance: none;
+}
+
+.select.shadow {
+  @apply drop-shadow-lg;
+}
+
+.label {
+  @apply block pb-2;
+}
+
+.select .inner {
+  @apply p-2 border-transparent border-r-8 w-full rounded cursor-pointer;
+}

@@ -1,7 +1,7 @@
 import React from 'react'
 import type { StoryFn, Meta } from '@storybook/react'
 
-import Image, { type Props } from './Image'
+import Image, { type ImageProps } from './Image'
 
 export default {
   title: 'components/atoms/Image',
@@ -16,7 +16,9 @@ export default {
   },
 } as Meta<typeof Image>
 
-const Template: StoryFn<typeof Image> = (args: Props) => <Image {...args} />
+const Template: StoryFn<typeof Image> = (args: ImageProps) => (
+  <Image {...args} />
+)
 
 const sampleImage = {
   src: '/nextjs.png',

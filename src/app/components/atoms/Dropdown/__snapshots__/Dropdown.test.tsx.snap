@@ -1,0 +1,151 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`app/components/atoms/Dropdown stories Naked matches markup snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="select naked"
+  >
+    <select
+      class="inner"
+      data-testid="select"
+    >
+      <option
+        value="foo"
+      >
+        Foo
+      </option>
+      <option
+        value="bar"
+      >
+        Bar
+      </option>
+      <option
+        value="buzz"
+      >
+        Buzz
+      </option>
+    </select>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`app/components/atoms/Dropdown stories Sample matches markup snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="select"
+  >
+    <select
+      class="inner"
+      data-testid="select"
+    >
+      <option
+        value="foo"
+      >
+        Foo
+      </option>
+      <option
+        value="bar"
+      >
+        Bar
+      </option>
+      <option
+        value="buzz"
+      >
+        Buzz
+      </option>
+    </select>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`app/components/atoms/Dropdown stories Shadow matches markup snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="select shadow"
+  >
+    <select
+      class="inner"
+      data-testid="select"
+    >
+      <option
+        value="foo"
+      >
+        Foo
+      </option>
+      <option
+        value="bar"
+      >
+        Bar
+      </option>
+      <option
+        value="buzz"
+      >
+        Buzz
+      </option>
+    </select>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`app/components/atoms/Dropdown stories Wide matches markup snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="select wide"
+  >
+    <select
+      class="inner"
+      data-testid="select"
+    >
+      <option
+        value="foo"
+      >
+        Foo
+      </option>
+      <option
+        value="bar"
+      >
+        Bar
+      </option>
+      <option
+        value="buzz"
+      >
+        Buzz
+      </option>
+    </select>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`app/components/atoms/Dropdown stories WithLabel matches markup snapshot 1`] = `
+<DocumentFragment>
+  <label
+    class="label"
+  >
+    label
+  </label>
+  <div
+    class="select"
+  >
+    <select
+      class="inner"
+      data-testid="select"
+    >
+      <option
+        value="foo"
+      >
+        Foo
+      </option>
+      <option
+        value="bar"
+      >
+        Bar
+      </option>
+      <option
+        value="buzz"
+      >
+        Buzz
+      </option>
+    </select>
+  </div>
+</DocumentFragment>
+`;

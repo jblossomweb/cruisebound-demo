@@ -1,0 +1,67 @@
+.btn {
+  @apply font-normal rounded;
+}
+
+.btn-shadow {
+  @apply drop-shadow-lg;
+}
+
+.btn-tiny {
+  @apply text-xs;
+  padding: 2px 4px;
+}
+
+.btn-small {
+  @apply text-sm py-1 px-2;
+}
+
+.btn-medium {
+  @apply text-base py-2 px-3;
+}
+
+.btn-large {
+  @apply text-2xl py-3 px-4;
+}
+
+.btn-blue {
+  @apply bg-blue-500 text-white;
+}
+
+.btn-blue:hover {
+  @apply bg-blue-700;
+}
+
+.btn-red {
+  @apply bg-red-500 text-white;
+}
+
+.btn-red:hover {
+  @apply bg-red-700;
+}
+
+.btn-green {
+  @apply bg-green-500 text-white;
+}
+
+.btn-green:hover {
+  @apply bg-green-700;
+}
+
+.btn-slate {
+  @apply bg-slate-600 text-white;
+}
+
+.btn-slate:hover {
+  @apply bg-slate-700;
+}
+
+.btn-white {
+  @apply bg-white
+    text-black
+    border-black;
+  border-width: 1px;
+}
+
+.btn-white:hover {
+  @apply bg-gray-100;
+}

@@ -1,0 +1,131 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`app/components/atoms/Button stories Blue matches markup snapshot 1`] = `
+<DocumentFragment>
+  <button
+    class="btn btn-blue btn-medium"
+    type="button"
+  >
+    Blue
+  </button>
+</DocumentFragment>
+`;
+
+exports[`app/components/atoms/Button stories Default matches markup snapshot 1`] = `
+<DocumentFragment>
+  <button
+    class="btn btn-blue btn-medium"
+    type="button"
+  >
+    Default
+  </button>
+</DocumentFragment>
+`;
+
+exports[`app/components/atoms/Button stories Green matches markup snapshot 1`] = `
+<DocumentFragment>
+  <button
+    class="btn btn-green btn-medium"
+    type="button"
+  >
+    Green
+  </button>
+</DocumentFragment>
+`;
+
+exports[`app/components/atoms/Button stories Large matches markup snapshot 1`] = `
+<DocumentFragment>
+  <button
+    class="btn btn-blue btn-large"
+    type="button"
+  >
+    Large
+  </button>
+</DocumentFragment>
+`;
+
+exports[`app/components/atoms/Button stories Medium matches markup snapshot 1`] = `
+<DocumentFragment>
+  <button
+    class="btn btn-blue btn-medium"
+    type="button"
+  >
+    Medium
+  </button>
+</DocumentFragment>
+`;
+
+exports[`app/components/atoms/Button stories NoText matches markup snapshot 1`] = `
+<DocumentFragment>
+  <button
+    class="btn btn-blue btn-medium"
+    type="button"
+  />
+</DocumentFragment>
+`;
+
+exports[`app/components/atoms/Button stories Red matches markup snapshot 1`] = `
+<DocumentFragment>
+  <button
+    class="btn btn-red btn-medium"
+    type="button"
+  >
+    Red
+  </button>
+</DocumentFragment>
+`;
+
+exports[`app/components/atoms/Button stories Shadow matches markup snapshot 1`] = `
+<DocumentFragment>
+  <button
+    class="btn btn-blue btn-medium btn-shadow"
+    type="button"
+  >
+    Shadow
+  </button>
+</DocumentFragment>
+`;
+
+exports[`app/components/atoms/Button stories Slate matches markup snapshot 1`] = `
+<DocumentFragment>
+  <button
+    class="btn btn-slate btn-medium"
+    type="button"
+  >
+    Slate
+  </button>
+</DocumentFragment>
+`;
+
+exports[`app/components/atoms/Button stories Small matches markup snapshot 1`] = `
+<DocumentFragment>
+  <button
+    class="btn btn-blue btn-small"
+    type="button"
+  >
+    Small
+  </button>
+</DocumentFragment>
+`;
+
+exports[`app/components/atoms/Button stories Tiny matches markup snapshot 1`] = `
+<DocumentFragment>
+  <button
+    class="btn btn-blue btn-tiny"
+    type="button"
+  >
+    Tiny
+  </button>
+</DocumentFragment>
+`;
+
+exports[`app/components/atoms/Button stories White matches markup snapshot 1`] = `
+<DocumentFragment>
+  <button
+    class="btn btn-white btn-medium"
+    type="button"
+  >
+    White
+  </button>
+</DocumentFragment>
+`;
