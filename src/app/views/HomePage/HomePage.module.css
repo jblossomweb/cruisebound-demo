@@ -10,21 +10,13 @@
     items-center;
 }
 
-.title a {
-  @apply text-blue-500
-    no-underline;
-}
-
-.title a:hover,
-.title a:focus,
-.title a:active {
-  @apply underline;
-}
-
 .title {
   @apply m-0
     leading-5
-    text-6xl
+    text-2xl
+    sm:text-4xl
+    md:text-5xl
+    lg:text-6xl
     font-semibold;
 }
 
@@ -34,9 +26,7 @@
 }
 
 .description {
-  @apply mx-0 my-16
-    leading-5
-    text-base;
+  @apply mx-0 my-16;
 }
 
 .description button {

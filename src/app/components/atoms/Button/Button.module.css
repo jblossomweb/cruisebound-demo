@@ -20,7 +20,11 @@
 }
 
 .btn-large {
-  @apply text-2xl py-3 px-4;
+  @apply py-3 px-4
+    text-sm
+    sm:text-base
+    md:text-lg
+    lg:text-2xl;
 }
 
 .btn-blue {

@@ -7,6 +7,7 @@
     drop-shadow-xl
     flex
     overflow-hidden
+    relative
     mb-4;
 }
 
@@ -15,9 +16,10 @@
 }
 
 .ship-container {
-  @apply relative
+  @apply md:relative
     top-0
-    left-0;
+    left-0
+    overflow-visible;
 }
 
 .ship-image {
@@ -31,22 +33,34 @@
 
 .ship-container,
 .ship-image {
-  /* 4:3 */
-  width: 260px;
-  min-height: 195px;
-  height: 100%;
+  width: 0px;
+  min-height: 0px;
+  height: 0px;
+
+  @media screen and (min-width: 640px) {
+    /* 4:3 */
+    width: 260px;
+    min-height: 195px;
+    height: 100%;
+  }
 }
 
 .dates {
   @apply absolute
-    top-2
-    left-2
+    top-32
+    right-0
+    md:top-2
+    md:left-2
     rounded
     text-xs
     text-white
     p-2
     z-10;
   background-color: rgba(0, 0, 0, 0.6);
+
+  @media screen and (min-width: 640px) {
+    right: unset;
+  }
 }
 
 .card-right {
@@ -69,7 +83,7 @@
 }
 
 .title {
-  @apply text-xl
+  @apply text-base md:text-xl
     font-bold;
 }
 
@@ -99,7 +113,7 @@
 }
 
 .specs {
-  @apply flex
+  @apply md:flex
     justify-start;
 }
 

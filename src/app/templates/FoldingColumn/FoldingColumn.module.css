@@ -1,10 +1,12 @@
 .page {
-  @apply w-full h-screen flex;
+  @apply w-full h-screen flex flex-col md:flex-row;
 }
 
 .left {
-  @apply w-16 h-screen bg-sky-950 text-gray-200;
-  transition: width 0.5s;
+  @apply w-screen md:w-16
+    h-16 md:h-screen
+    bg-sky-950 text-gray-200;
+  transition: width 0.5s, height 0.5s;
 }
 
 .left .main {
@@ -13,12 +15,22 @@
 }
 
 .left.expanded {
-  @apply w-80;
+  @apply w-screen h-96
+  md:w-80 md:h-screen;
+}
+
+.left .toggle button img,
+.left .toggle button svg {
+  @apply origin-center
+  rotate-90
+  md:rotate-0;
 }
 
 .left.expanded .toggle button img,
 .left.expanded .toggle button svg {
-  transform: rotate(-180deg);
+  @apply origin-center
+  -rotate-90
+  md:-rotate-180;
 }
 
 .left.expanded .main {
